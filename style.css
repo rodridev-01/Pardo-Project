@@ -89,17 +89,44 @@ body {
 }
 
 .login-box select, .login-box input {
-    width: calc(100% - 30px); 
+    width: 100%;
     padding: 15px;
     margin: 10px 0;
     border: none;
     font-size: 1rem;
     background-color: #ECF0F1;
     animation: fadeIn 1.5s ease-in-out;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    border-radius: 5px; /* Opcional: para bordes redondeados */
 }
 
 .login-box input::placeholder {
+    color: #BDC3C7;
+}
+
+.password-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.password-container input {
+    width: 100%;
+    padding: 15px;
+    padding-right: 50px; /* Espacio adicional para el ícono */
+    font-size: 1rem;
+    background-color: #ECF0F1;
+    border: none;
+    border-radius: 5px; /* Opcional: para bordes redondeados */
+    box-sizing: border-box;
+}
+
+.password-container .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 15px; /* Ajusta la distancia desde el borde derecho */
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.2rem;
     color: #BDC3C7;
 }
 
@@ -233,4 +260,3 @@ body {
         transform: scale(1);
     }
 }
-
