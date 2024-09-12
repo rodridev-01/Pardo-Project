@@ -89,14 +89,14 @@ body {
 }
 
 .login-box select, .login-box input {
-    width: calc(100% - 30px); /* Ajusta el ancho del input y select */
+    width: calc(100% - 30px); 
     padding: 15px;
     margin: 10px 0;
     border: none;
     font-size: 1rem;
     background-color: #ECF0F1;
     animation: fadeIn 1.5s ease-in-out;
-    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    box-sizing: border-box; 
 }
 
 .login-box input::placeholder {
