@@ -97,7 +97,7 @@ body {
     background-color: #ECF0F1;
     animation: fadeIn 1.5s ease-in-out;
     box-sizing: border-box;
-    border-radius: 5px; /* Opcional: para bordes redondeados */
+    border-radius: 5px; 
 }
 
 .login-box input::placeholder {
@@ -112,18 +112,18 @@ body {
 .password-container input {
     width: 100%;
     padding: 15px;
-    padding-right: 50px; /* Espacio adicional para el ícono */
+    padding-right: 50px;
     font-size: 1rem;
     background-color: #ECF0F1;
     border: none;
-    border-radius: 5px; /* Opcional: para bordes redondeados */
+    border-radius: 5px; 
     box-sizing: border-box;
 }
 
 .password-container .toggle-password {
     position: absolute;
     top: 50%;
-    right: 15px; /* Ajusta la distancia desde el borde derecho */
+    right: 15px; 
     transform: translateY(-50%);
     cursor: pointer;
     font-size: 1.2rem;
